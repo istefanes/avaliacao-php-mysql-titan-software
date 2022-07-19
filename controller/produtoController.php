@@ -17,7 +17,6 @@ class ProdutoController {
     public function visualizar() {
 
         $produto = new Produto();
-        $preco   = new Preco();
 
         if ( isset($_REQUEST['id']) && $_REQUEST['id'] > 0 ) {
             $produto->carregar($_REQUEST['id']); // Carrega os dados se estiver visualizando um produto já cadastrado
