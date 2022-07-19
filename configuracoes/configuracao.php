@@ -1,7 +1,8 @@
 <?php
 // Arquivo responsável por armazenar os dados de conexão com o banco de dados e outras configurações que forem necessárias
 
-error_reporting(E_ALL);
+// error_reporting(E_ALL);
+error_reporting(E_ERROR);
 
 
 // Define as constantes com os dados da conexão com o banco
